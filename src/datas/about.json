@@ -1,0 +1,35 @@
+{
+    "data": {
+        "about": "Focuses and passionate on programming-tech education, software development, software requirements analysis, and software business strategy. Bagas also proficient in programming languages such as Javascript & Typescript along with several frameworks and libraries such as Next Js, React Js, React Native or task management on Jira/Trello. He was handling backend services configuration such as Firebase, while also handling state management and manipulation using third-party libraries like Redux, Universally Unique Identifier (UUID), also middleware such as Redux-Thunk/Saga. He was able to using Express JS to work on API development as well as query management with MySQL. Ever released a mobile application on the Play Store and App Store platforms called IJSL - Indonesian Junior Soccer League .",
+        "tech_stack": [
+            {
+                "title": "Javascript",
+                "uri": "https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png"
+            },
+            {
+                "title": "Typescript",
+                "uri": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png"
+            },
+            {
+                "title": "React Js",
+                "uri": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+            },
+            {
+                "title": "React Native",
+                "uri": "https://www.datocms-assets.com/45470/1631026680-logo-react-native.png"
+            },
+            {
+                "title": "Node Js",
+                "uri": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png"
+            },
+            {
+                "title": "MySQL",
+                "uri": "https://1000logos.net/wp-content/uploads/2020/08/MySQL-Logo.png"
+            },
+            {
+                "title": "Express Js",
+                "uri": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
+            }
+        ]
+    }
+}
