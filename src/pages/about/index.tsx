@@ -16,7 +16,7 @@ const About = () => {
           </div>
           <div className="w-full md:w-3/4">
             <h2 className="text-2xl font-bold text-porto-sky-700 mb-4 text-center">
-              Hello, I'm Bagas Dhitya Taufiqqi
+              {data.name}
             </h2>
           </div>
         </section>
