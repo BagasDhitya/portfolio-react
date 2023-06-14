@@ -1,0 +1,55 @@
+{
+    "data": [
+        {
+            "title": "Academic Instructor",
+            "company": "PT Marka Kreasi Persada (Alterra Academy)",
+            "date": "Jul 2022 - Present",
+            "description": [
+                "• Provide private session for students every week on calendly",
+                "• Collect learning progress report of each students in every phase",
+                "• Research, analyze, and update material curriculum plan of Frontend Engineering",
+                "• Delivering fundamental of Backend Engineering with Express JS in Thrive Program"
+            ]
+        },
+        {
+            "title": "Frontend Engineering Instructor",
+            "company": "Digital Talent Scholarship",
+            "date": "May 2022 - Jul 2022",
+            "description": [
+                "• Provide basic programming knowledge of Javascript with library such as React Js",
+                "• Develop and create material curriculum about fundamental knowledge of React Js",
+                "• Manage telegram group for students discussion or QnA session",
+                "• Collecting weekly evaluation of students progress with helpdesk team"
+            ]
+        },
+        {
+            "title": "Mobile Application Developer",
+            "company": "PT Enso Teknologi Indonesia",
+            "date": "Jul 2021 - Jul 2022",
+            "description": [
+                " • Responsible for handle 3 Mobile App development such as IJSL (Indonesian Junior Soccer League), Birdie App, Fresh Express App",
+                "• Responsible to perform mobile app integration with backend as services such as Firebase, Firestore, etc.",
+                "• Manage and monitor progress across all mobile application projects",
+                "• Manage and fix some configuration issues, setup, or bugs during the software development process until production",
+                "• Responsible for testing and deploy to playstore or appstore on projects that have been completed",
+                "• Integrate mobile app with Woo-Commerce and Midtrans payment gateway",
+                "• Implement Redux as global state management with Redux-Thunk middleware for development process"
+            ]
+        },
+        {
+            "title": "Mobile Application Developer",
+            "company": "PT Paramitra Alfa Sekuritas",
+            "date": "Jan 2021 - Jun 2021",
+            "description": [
+                "• Responsible for handling 'Rocket' mobile app development with React Native Typescript",
+                "• Maintain code, debugging, and fixing bug",
+                "• Integrating mobile app with third-party API from vendors",
+                "• Participate in weekly meetings with Management Team to discuss new features that can increase users engagement",
+                "• Create MVP, Business Model, and Product flow system (wireframe)",
+                "• Create Bussiness Requirement Document (BRD), A/B Testing",
+                "• Work closely with the digital marketing team to research competitors product",
+                "• Analyze mutual fund mobile application market to determine user needs"
+            ]
+        }
+    ]
+}
