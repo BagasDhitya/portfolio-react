@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 const Whatsapp = () => {
   const whatsappIcon =
     "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/767px-WhatsApp.svg.png";
