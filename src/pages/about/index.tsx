@@ -4,6 +4,7 @@ import Layout from "../../components/Layout";
 import Profile from "../../assets/profile.jpeg";
 import { data } from "../../datas/about.json";
 import Whatsapp from "../../components/Whatsapp";
+import Button from "../../components/Button";
 
 const About = () => {
   return (
@@ -29,6 +30,22 @@ const About = () => {
             <p className="text-lg text-porto-sky-700 mb-4 text-center">
               Programming Mentor | Software Engineer | Javascript Developer
             </p>
+            <div className="flex justify-center lg:mx-80 lg:gap-x-5 md:gap-x-5 md:justify-start sm:gap-x-5 gap-x-5">
+              <Button
+                id="linkedin"
+                label="LinkedIn"
+                type="filled"
+                target="_blank"
+                to={"https://www.linkedin.com/in/bagasdhityataufiqqi/"}
+              />
+              <Button
+                id="github"
+                label="Github"
+                type="non-filled"
+                target="_blank"
+                to={"https://github.com/BagasDhitya"}
+              />
+            </div>
           </div>
         </section>
         <section className="my-10 lg:ml-20">
