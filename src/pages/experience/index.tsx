@@ -24,13 +24,22 @@ const Experience = () => {
                                 <h3 className="text-lg font-bold mb-2">{experience.title}</h3>
                                 <h4 className="text-gray-500 mb-2">{experience.company}</h4>
                                 <p className="text-gray-600 mb-4">{experience.date}</p>
-                                <p className="text-gray-700">{experience.description}</p>
+                                <div className="flex flex-row">
+                                    {
+                                        experience.description.map((item: any) => {
+                                            return (
+                                                <>
+                                                    {item}<br />
+                                                </>
+                                            )
+                                        })
+                                    }
+                                </div>
                             </div>
                         </div>
                     ))}
                 </div>
             </div>
-
         </Layout>
     )
 }
