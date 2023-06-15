@@ -77,3 +77,33 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+@keyframes from-right {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes from-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.from-right-animation {
+  animation: from-right 1s ease-in-out;
+}
+
+.from-left-animation {
+  animation: from-left 1s ease-in-out;
+}
