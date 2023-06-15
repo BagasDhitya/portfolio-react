@@ -1,12 +1,22 @@
 import { motion } from "framer-motion";
 
+import { AboutState } from "../../utils/type";
+import { data } from "../../datas/about.json";
+
 import Layout from "../../components/Layout";
 import Profile from "../../assets/profile.jpeg";
-import { data } from "../../datas/about.json";
 import Whatsapp from "../../components/Whatsapp";
 import Button from "../../components/Button";
 
 const About = () => {
+  const item: AboutState = {
+    data: {
+      name: data.name,
+      about: data.about,
+      tech_stack: data.tech_stack,
+    },
+  };
+
   return (
     <Layout>
       <main className="container mx-auto px-auto py-8">
@@ -25,7 +35,7 @@ const About = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.5 }}
             >
-              {data.name}
+              {item.data.name}
             </motion.h2>
             <p className="text-lg text-porto-sky-700 mb-4 text-center">
               Programming Mentor | Software Engineer | Javascript Developer
@@ -58,14 +68,14 @@ const About = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.5 }}
           >
-            {data.about}
+            {item.data.about}
           </motion.p>
         </section>
         <section className="lg:ml-20">
           <h2 className="text-2xl font-bold text-porto-sky-700">Tech Stack</h2>
           <div className="flex flex-wrap justify-center items-center m-10 lg:space-x-20 space-x-10">
-            {data &&
-              data.tech_stack.map((item: any, index: number) => {
+            {item.data &&
+              item.data.tech_stack.map((item: any, index: number) => {
                 return (
                   <motion.img
                     key={index}
