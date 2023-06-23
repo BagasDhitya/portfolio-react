@@ -1,14 +1,7 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import { Link } from "react-router-dom";
 
-interface ButtonProps {
-  id: string;
-  to?: any;
-  label?: string;
-  target?: "_blank" | "_parent" | "_self" | "_top";
-  type?: "filled" | "non-filled";
-  onClick?: React.MouseEventHandler;
-}
+import { ButtonProps } from "../utils/component";
 
 const Button: FC<ButtonProps> = ({ id, to, label, type, target, onClick }) => {
   return (
